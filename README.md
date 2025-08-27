@@ -6,7 +6,7 @@ The system is grid-based and deliberately lightweight — the focus is on **deci
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Grid environment**  
   The world is represented as a 2D grid where each cell is either free or blocked. UAVs move one step at a time in the four cardinal directions.  
@@ -28,7 +28,7 @@ The system is grid-based and deliberately lightweight — the focus is on **deci
 
 ---
 
-## 📂 Code Structure
+##  Code Structure
 
 uav_simulation/
 │
@@ -42,17 +42,17 @@ uav_simulation/
 
 ---
 
-## ▶️ Running the Simulation
+## ▶️Running the Simulation
 
 Make sure you have **Python 3.8+**, **NumPy**, and **Matplotlib** installed.  
 
-Run a basic demo with three UAVs:
+Run a basic demo with the UAVs:
 
 ```bash
 python run_simulation.py --rows 20 --cols 20 --steps 200 --seed 42
 What happens:
 
-Three UAVs start from different corners and aim for opposite corners.
+Two UAVs start from different corners and aim for opposite corners.
 
 Random threats appear, forcing UAVs to replan.
 
@@ -62,7 +62,7 @@ You can stop the simulation anytime by closing the Matplotlib window.
 
 To try the experimental D-Lite* planner, set use_dstar=True inside run_simulation.py.
 
-🔧 Extending the Project
+ **Extending the Project**
 Threats → Replace circular threats with moving obstacles or real sensor inputs.
 
 Planners → Add new algorithms (LPA*, Jump-Point Search, etc.).
@@ -71,7 +71,7 @@ Communication layer → Simulate delays or limited bandwidth.
 
 3D expansion → Port to simulators like AirSim or Webots.
 
-⚠️ Current Limitations
+** Current Limitations**
 Threats are static once spawned; moving threats are not implemented.
 
 D*-Lite support is partial and experimental.
