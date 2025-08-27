@@ -78,11 +78,6 @@ D*-Lite support is partial and experimental.
 
 Visualisation is basic.
 
-📸 Screenshot
-Here’s what the simulation looks like:
-
-![UAV Simulation](docs/simulation.png)
-
 📜 License
 This project is provided for educational purposes only.
 No warranty is implied — use at your own risk.
