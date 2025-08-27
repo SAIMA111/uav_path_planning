@@ -42,7 +42,7 @@ uav_simulation/
 
 ---
 
-## ▶️Running the Simulation
+## Running the Simulation
 
 Make sure you have **Python 3.8+**, **NumPy**, and **Matplotlib** installed.  
 
@@ -78,7 +78,7 @@ D*-Lite support is partial and experimental.
 
 Visualisation is basic.
 
-📜 License
+**License**
 This project is provided for educational purposes only.
 No warranty is implied — use at your own risk.
 
